@@ -1,6 +1,7 @@
 # Files to ignore when considering what GIT should commit.
 
 # Visual Studio 
+#folders
 .vs/
 ipch/
 x64/
@@ -9,3 +10,5 @@ x64/Debug/
 zbrush-dll-template/x64/
 zbrush-dll-template/x64/Release/
 zbrush-dll-template/x64/Debug/
+#files
+.log
