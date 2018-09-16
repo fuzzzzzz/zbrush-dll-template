@@ -1,9 +1,0 @@
-﻿  stdafx.cpp
-  dllmain.cpp
-  dll-template.cpp
-  pch.cpp
-     Creating library L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.lib and object L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.exp
-  Generating code
-  All 3 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  zbrush-dll-template.vcxproj -> L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.dll
