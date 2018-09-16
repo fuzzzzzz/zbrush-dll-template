@@ -7,6 +7,7 @@ ipch/
 x64/
 x64/Release/
 x64/Debug/
+temp/
 zbrush-dll-template/x64/
 zbrush-dll-template/x64/Release/
 zbrush-dll-template/x64/Debug/
