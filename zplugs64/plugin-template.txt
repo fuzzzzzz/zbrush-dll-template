@@ -36,7 +36,7 @@
 	[MemCreate,Test_DLL_mem, 256, 0]	
 	[VarSet,err,[FileExecute,[Var,dllPath],"HelloDLL",#stringArg,,Test_DLL_mem]]
 
-/*
+
 	[If,err,
 		[Note,"An error has occured"]
 		[Exit]
@@ -45,5 +45,5 @@
 		//[Note,responseString]//should say 'Hello from my DLL'
 		[MemDelete,Test_DLL_mem]//done with buffer, delete it
 	]
-*/
+
 ]

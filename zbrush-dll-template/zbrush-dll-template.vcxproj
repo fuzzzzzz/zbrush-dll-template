@@ -105,6 +105,7 @@
     <PostBuildEvent>
       <Command>xcopy /s /y "L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.dll" "D:\Imaging\Pixologic\ZBrush 2018\ZStartup\ZPlugs64\plugin-template" /f
 xcopy /s /y "L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.pdb" "D:\Imaging\Pixologic\ZBrush 2018\ZStartup\ZPlugs64\plugin-template" /f
+xcopy /s /y "L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\Zplugs64\plugin-template.txt" "D:\Imaging\Pixologic\ZBrush 2018\ZStartup\ZPlugs64" /f
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
