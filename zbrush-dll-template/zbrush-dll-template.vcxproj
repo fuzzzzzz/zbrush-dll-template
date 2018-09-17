@@ -92,7 +92,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;ZBRUSHDLLTEMPLATE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;ZBRUSHDLLTEMPLATE_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
@@ -102,6 +102,11 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /s /y "L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.dll" "D:\Imaging\Pixologic\ZBrush 2018\ZStartup\ZPlugs64\plugin-template" /f
+xcopy /s /y "L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-template\x64\Release\zbrush-dll-template.pdb" "D:\Imaging\Pixologic\ZBrush 2018\ZStartup\ZPlugs64\plugin-template" /f
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
