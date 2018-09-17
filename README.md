@@ -18,5 +18,5 @@ The code is a bit buggy, Zbrush crashes when the HELLO Dll Button is pressed.
 Installation : 
 --------------
 
-1. Copy plugin-template.txt and plugin-template directory to Zplug64 in Zbrush Startup installation.
-2. In zbrush "Script > load script" load the plugin-template.txt file.
+* Copy plugin-template.txt and plugin-template directory to Zplug64 in Zbrush Startup installation.
+* In zbrush "Script > load script" load the plugin-template.txt file.
