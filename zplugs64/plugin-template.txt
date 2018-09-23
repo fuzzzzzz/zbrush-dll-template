@@ -19,8 +19,10 @@
 [IButton,"Zplugin:Plugin Template:Test Version","Test DLL Version function",
 	[IConfig,2018]
 	[RoutineCall,CheckSystem]
+	[VarSet,ver,0]//version
 	[VarSet,ver,[FileExecute,[Var,dllPath],"Version"]]
 	[Note,[StrMerge,"This DLL is version ",ver]]
+	
 ]
 
 

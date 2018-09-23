@@ -180,6 +180,9 @@ xcopy /s /y "L:\programming\ZBRUSH-Scripts\ZGameTools\DEV\dll\zbrush-dll-templat
   <ItemGroup>
     <Text Include="..\Zplugs64\plugin-template.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
