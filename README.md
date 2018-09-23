@@ -15,3 +15,8 @@ Installation :
 
 * Copy plugin-template.txt and plugin-template directory to Zplug64 in Zbrush Startup installation.
 * In zbrush "Script > load script" load the plugin-template.txt file.
+
+Credits :
+---------
+
+Mark Burgess, Nicolas Kirsch( fuzzzzzz). 
