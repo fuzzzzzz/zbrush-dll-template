@@ -1,4 +1,3 @@
-
 [VarDef,dllPath,""]//path to dll
 [VarDef,err,0]//standard error
 [VarDef,ver,0]//version
@@ -15,9 +14,9 @@
 
 
 
-[ISubPalette, "zplugin:Plugin Template",1]
+[ISubPalette, "Zplugin:Plugin Template",1]
 
-[IButton,"zplugin:plugin template:Test Version","Test DLL Version function",
+[IButton,"Zplugin:Plugin Template:Test Version","Test DLL Version function",
 	[IConfig,2018]
 	[RoutineCall,CheckSystem]
 	[VarSet,ver,[FileExecute,[Var,dllPath],"Version"]]
@@ -26,7 +25,7 @@
 
 
 
-[IButton,"zplugin:Plugin template:Test HelloDLL","Test DLL HelloDLL function",
+[IButton,"Zplugin:Plugin Template:Test HelloDLL","Test DLL HelloDLL function",
 	[IConfig,2018]
 	[RoutineCall,CheckSystem]
 	[VarSet,stringArg,"Hello from ZBrush"]
@@ -42,7 +41,7 @@
 		[Exit]
 		,
 		[MemReadString,Test_DLL_mem,#responseString]
-		//[Note,responseString]//should say 'Hello from my DLL'
+		[Note,responseString]//should say 'Hello from my DLL'
 		[MemDelete,Test_DLL_mem]//done with buffer, delete it
 	]
 
